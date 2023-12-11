@@ -1,0 +1,71 @@
+baseURL = "https://lottewong.github.io/"
+languageCode = "zh-CN"
+defaultContentLanguage = "zh-hans"
+title = "LotteWong's Blog"
+theme = "maupassant"
+
+hasCJKLanguage = true
+summaryLength = 70
+preserveTaxonomyNames = true
+disablePathToLower = true
+
+## 基础信息
+[author]
+  name = "LotteWong"
+
+[params]
+  author = "LotteWong"
+  subtitle = "C$IG全菜工程师"
+  keywords = ""
+  description = ""
+  busuanzi = true #启用不算子网页统计
+  localSearch = true # 启用本地搜索
+  toc = true  # 是否开启目录
+
+  # 这里我存放在了主题的static文件夹里，根目录的似乎也可以
+  customCSS = ['douban.css', 'other.css']
+  # if ['custom.css'], load '/static/css/custom.css' file
+  customJS = ['douban.js']
+  # if ['custom.js'], load '/static/js/custom.js' file
+  
+## 友情链接
+[[params.links]]
+  title = "飞雪无情的博客"
+  name = "飞雪无情的博客"
+  url = "https://www.flysnow.org/"
+
+## 评论系统
+
+
+## 版权声明
+[params.cc]
+    name = ""
+    link = ""
+
+## 代码高亮
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "github"
+
+## 网站菜单
+
+[menu]
+
+  [[menu.main]]
+    identifier = "cheatsheets"
+    name = "工具"
+    url = "/cheatsheets/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
